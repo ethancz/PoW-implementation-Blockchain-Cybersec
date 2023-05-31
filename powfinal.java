@@ -71,7 +71,7 @@ public class powfinal {
         }
     }
 
-    // Function wich convert byte array to hexadecimal string
+    // Function which converts byte array to hex
     private static String convertToHex(byte[] data) {
         StringBuilder buf = new StringBuilder();
         for (byte datum : data) {
